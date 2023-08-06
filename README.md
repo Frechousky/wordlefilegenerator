@@ -4,10 +4,14 @@ CLI app to generate wordle files, ie. files containing fixed length words (eg. 6
 Words are in lowercase and one word per line.
 See [allmots4lettres.txt](tests/data/allmots4lettres.txt) for wordle file example.
 
+## Require
+
+- [poetry](https://python-poetry.org/)
+- python ^3.11
+
 ## Install
 
-- `make venv` to create virtualenv (optional)
-- `make deps` to install dependencies
+- `make install-deps` to install dependencies
 
 ## Usage
 

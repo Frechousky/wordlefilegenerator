@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "wordlefilegenerator"
+version = "0.1.0"
+description = "CLI app to generate wordle files"
+authors = ["frechousky <alexandre.freche@gmail.com>"]
+license = "GNU"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+beautifulsoup4 = "~4.12.2"
+requests = "~2.31.0"
+loguru = "~0.7.0"
+click = "~8.1.6"
+
+[tool.poetry.group.test.dependencies]
+pytest = "~7.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
