@@ -14,8 +14,8 @@ through several attempts, indicating for each of them the position of the well-p
 
 ## Require
 
-- [poetry](https://python-poetry.org/)
 - python ^3.11
+- [poetry](https://python-poetry.org/)
 
 ## Install
 
