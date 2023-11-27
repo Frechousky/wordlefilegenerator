@@ -1,4 +1,4 @@
-# wordlefilegenerator
+# WORDLEFILEGENERATOR
 
 CLI app to generate wordle files, ie. files containing fixed length words (eg. 6 characters length words).
 Words are in lowercase and one word per line.
